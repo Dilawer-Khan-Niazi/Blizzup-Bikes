@@ -9,7 +9,7 @@ function BikeDetail() {
   const [activeImage, setActiveImage] = useState(0)
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/api/bikes/${id}`)
+    axios.get(`${import.meta.env.VITE_API_URL}/api/bikes/${id}`)
       .then(res => {
         setBike(res.data)
         setLoading(false)

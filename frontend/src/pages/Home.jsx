@@ -8,7 +8,7 @@ function Home() {
   const [error, setError] = useState(null)
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/bikes')
+    axios.get(`${import.meta.env.VITE_API_URL}/api/bikes`)
       .then(res => {
         setBikes(res.data)
         setLoading(false)

@@ -116,9 +116,9 @@ function Chat() {
     setLoading(true)
 
     try {
-      const res = await axios.post('http://localhost:5000/api/chat', {
-        messages: newMessages,
-      })
+      const res = await axios.post(`${import.meta.env.VITE_API_URL}/api/chat`, {
+  messages: newMessages,
+})
 
       const { reply, type, comparison: compData, winner: winnerData } = res.data
       setMessages(prev => [...prev, { role: 'assistant', content: reply }])
