@@ -1,10 +1,11 @@
-#  Blizzup Bikes — Bike Expert AI Agent
+<img width="617" height="786" alt="image" src="https://github.com/user-attachments/assets/548a91fd-2812-4b7e-b169-05f52fad92f5" />#  Blizzup Bikes — Bike Expert AI Agent
 
 A full-stack web application that displays bikes and features an AI-powered agent that compares bikes, scores them out of 100, and recommends the best one.
 
 ##  Live Demo
-- Frontend: (Vercel URL — add after deployment)
-- Backend: (Render URL — add after deployment)
+- Frontend: https://blizzup-bikes.vercel.app/
+
+- Backend: https://blizzup-bikes-production-35fb.up.railway.app/
 
 ##  Tech Stack
 | Layer | Technology |
